@@ -11,7 +11,6 @@
 </head>
 <body>
     <header>
-        <!--removes the margins set automatically by  bootstap-->
         <div class="row no-gutters">
             <a class="col-md-4 logo" href="02-index.html"></a>
             <div class="col-md-8">
@@ -23,21 +22,19 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <!--list inline Stops from displaying vertically. Use menu container as a hack to close the white spaces between elements-->
                         <ul id="nav" class="list-inline menucontainer">
-                            <!--4 elements display in small, 2 in normal-->
-                            <!--list inline Stops from displaying vertically....need to give to all inside-->
-                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item">
-                                <a href="#"><span>Home</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
+                                <!--Aria Hidden makes it known by screen readers. Use of menuitem to style the font awesome-->
+                                <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item">
-                                <a href="#"><span>Resume</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
+                                <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item">
-                                <a href="#"><span>Contact</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
+                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item">
-                                <a href="#"><span>Download CV</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
+                                <a href="#"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
                     </div>
