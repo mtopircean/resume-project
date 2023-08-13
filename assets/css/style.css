@@ -348,15 +348,11 @@ footer {
     margin-bottom: 20px;
 }
 
-/* the margin settings is how you center the form*/
-
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
-
-/*you can target a button with a specific type*/
 
 button[type="submit"] {
     margin-top: 15px;
@@ -366,8 +362,6 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------Media Queries */
-
-/*sets a minimum height and a max width*/
 
 @media(min-width: 992px) {
     .center-form {
