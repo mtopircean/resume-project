@@ -44,12 +44,31 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column">
+            <div class="col-md-4 bg-color-work-history section-column">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="section-heading uppercase">
+                        <h3 class="history-heading uppercase">
                             Work History
                         </h3>
+                    </div>
+                </div>
+                <!--timeline item is what creates that timeline effect. you need to add also the dates-->
+                <div class="history-items">
+                    <div class="timeline-item" data-dates="02/1998 - 04/2004">
+                        <h4>National College of Art and Design (NCAD)</h4>
+                        <p>Sculptor in residence</p>
+                    </div>
+                    <div class="timeline-item" data-dates="04/2004 - 06/2008">
+                        <h4>Fisher and Diaz Funeral Directors</h4>
+                        <p>Junior Embalmer</p>
+                    </div>
+                    <div class="timeline-item" data-dates="06/2008 - 06/2011">
+                        <h4>Phantom Design Inc. Dublin</h4>
+                        <p>Junior Front End Developer</p>
+                    </div>
+                    <div class="timeline-item" data-dates="06/2011 - Present">
+                        <h4>Hooli Inc. Silicon Valley</h4>
+                        <p>Full Stack Web Developer</p>
                     </div>
                 </div>
             </div>
@@ -87,11 +106,9 @@
                         </div>
                     </div>
                 </div>
-                <!--progress-bar is a booststrap default-->
                 <div class="row progress-section">
                     <div class="col">
                         <div class="progress">
-                            <!--you set current, max, min...use inline style to se width....necesissity due to bootstrap. Color default is blue. BG-..gives color value...se how it is different for all.-->
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
                                 <span class="sr-only">90% complete</span>
                             </div>
