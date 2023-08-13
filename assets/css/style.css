@@ -228,14 +228,11 @@ footer {
 
 /* ----------------------------------------Personal Info */
 
-/* display block ocupies the space in full clear means no other can appear on sides*/
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
-
-/*inline block means that it can show in same line, side by sider*/
 
 .personal-info-item .key,
 .personal-info-item .value {
@@ -248,8 +245,6 @@ footer {
     margin: 0;
 }
 
-/*vertical align, hugs the top of the div as much as possible*/
-
 .personal-info-item .key {
     width: 30%;
     margin-right: 21px;
@@ -260,8 +255,6 @@ footer {
 .personal-info-item .key p {
     font-weight: 700;
 }
-
-/*relative to it`s predecesor*/
 
 .personal-info-item .value {
     position: relative;
